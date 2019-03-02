@@ -12,12 +12,12 @@
 	      if ( has_custom_logo() ) {
 	              echo '<img src="'. esc_url( $logo[0] ) .'">';
 	          } else {
-	                  echo '<h1><a href="/lashes/">'. get_bloginfo( 'name' ) .'</a></h1>';
+	                  echo '<h1><a href="/">'. get_bloginfo( 'name' ) .'</a></h1>';
 	          }
          ?>
     </div>
 	<div class="banner">
-		<img src="http://localhost/lashes/wp-content/uploads/2018/12/distant-city.jpg" />
+		<img src="/wp-content/uploads/2018/12/image.jpg" /> <!–– Insert your image Here -->
 	</div>
 	<nav class="topnav" id="myTopnav">
             <?php wp_nav_menu( array(    
